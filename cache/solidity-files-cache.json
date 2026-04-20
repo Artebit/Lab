@@ -36,6 +36,42 @@
       "artifacts": [
         "Lock"
       ]
+    },
+    "C:\\Users\\p0nar\\assignment5-clean\\contracts\\Greeting.sol": {
+      "lastModificationDate": 1776630276552,
+      "contentHash": "33c18f270c89a924d3d45e2662688c9a",
+      "sourceName": "contracts/Greeting.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "Greeting"
+      ]
     }
   }
 }
